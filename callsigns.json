@@ -1,0 +1,954 @@
+[
+    {
+        "callsign": "S57O",
+        "year": "68"
+    },
+    {
+        "callsign": "S58D",
+        "year": "78"
+    },
+    {
+        "callsign": "S52AA",
+        "year": "97"
+    },
+    {
+        "callsign": "S58M",
+        "year": "82"
+    },
+    {
+        "callsign": "S54O",
+        "year": "75"
+    },
+    {
+        "callsign": "S57C",
+        "year": "76"
+    },
+    {
+        "callsign": "S55BA",
+        "year": "16"
+    },
+    {
+        "callsign": "S58KA",
+        "year": "10"
+    },
+    {
+        "callsign": "S53KX",
+        "year": "23"
+    },
+    {
+        "callsign": "S56B",
+        "year": "87"
+    },
+    {
+        "callsign": "S58C",
+        "year": "92"
+    },
+    {
+        "callsign": "S53F",
+        "year": "83"
+    },
+    {
+        "callsign": "S53XX",
+        "year": "92"
+    },
+    {
+        "callsign": "S54X",
+        "year": "82"
+    },
+    {
+        "callsign": "S54A",
+        "year": "71"
+    },
+    {
+        "callsign": "S58WW",
+        "year": "75"
+    },
+    {
+        "callsign": "S57K",
+        "year": "81"
+    },
+    {
+        "callsign": "S51J",
+        "year": "69"
+    },
+    {
+        "callsign": "S59NV",
+        "year": "23"
+    },
+    {
+        "callsign": "S50AMS",
+        "year": "14"
+    },
+    {
+        "callsign": "S53WW",
+        "year": "81"
+    },
+    {
+        "callsign": "S53AR",
+        "year": "77"
+    },
+    {
+        "callsign": "S51MM",
+        "year": "92"
+    },
+    {
+        "callsign": "S53CC",
+        "year": "91"
+    },
+    {
+        "callsign": "S52AU",
+        "year": "70"
+    },
+    {
+        "callsign": "S52WD",
+        "year": "80"
+    },
+    {
+        "callsign": "S53N",
+        "year": "59"
+    },
+    {
+        "callsign": "S51KD",
+        "year": "69"
+    },
+    {
+        "callsign": "S59DM",
+        "year": "92"
+    },
+    {
+        "callsign": "S52ON",
+        "year": "82"
+    },
+    {
+        "callsign": "S57Q",
+        "year": "74"
+    },
+    {
+        "callsign": "S50NB",
+        "year": "23"
+    },
+    {
+        "callsign": "S52F",
+        "year": "71"
+    },
+    {
+        "callsign": "S53O",
+        "year": "72"
+    },
+    {
+        "callsign": "S51R",
+        "year": "81"
+    },
+    {
+        "callsign": "S570CST",
+        "year": "54"
+    },
+    {
+        "callsign": "S52JK",
+        "year": "81"
+    },
+    {
+        "callsign": "S51DD",
+        "year": "78"
+    },
+    {
+        "callsign": "S52NY",
+        "year": "82"
+    },
+    {
+        "callsign": "S50B",
+        "year": "86"
+    },
+    {
+        "callsign": "S58RU",
+        "year": "65"
+    },
+    {
+        "callsign": "S52ZW",
+        "year": "80"
+    },
+    {
+        "callsign": "S57WX",
+        "year": "24"
+    },
+    {
+        "callsign": "S57NL",
+        "year": "94"
+    },
+    {
+        "callsign": "S52P",
+        "year": "77"
+    },
+    {
+        "callsign": "S51I",
+        "year": "96"
+    },
+    {
+        "callsign": "S53SL",
+        "year": "08"
+    },
+    {
+        "callsign": "S57KM",
+        "year": "90"
+    },
+    {
+        "callsign": "S56AS",
+        "year": "24"
+    },
+    {
+        "callsign": "S51Z",
+        "year": "77"
+    },
+    {
+        "callsign": "S53SA",
+        "year": "22"
+    },
+    {
+        "callsign": "S57AJ",
+        "year": "95"
+    },
+    {
+        "callsign": "S52W",
+        "year": "80"
+    },
+    {
+        "callsign": "S56A",
+        "year": "62"
+    },
+    {
+        "callsign": "S55X",
+        "year": "10"
+    },
+    {
+        "callsign": "S51DQ",
+        "year": "57"
+    },
+    {
+        "callsign": "S53MR",
+        "year": "96"
+    },
+    {
+        "callsign": "S56KS",
+        "year": "23"
+    },
+    {
+        "callsign": "S52KJ",
+        "year": "21"
+    },
+    {
+        "callsign": "S50R",
+        "year": "65"
+    },
+    {
+        "callsign": "S52WW",
+        "year": "00"
+    },
+    {
+        "callsign": "S50C",
+        "year": "57"
+    },
+    {
+        "callsign": "S51VC",
+        "year": "69"
+    },
+    {
+        "callsign": "S51B",
+        "year": "79"
+    },
+    {
+        "callsign": "S58MU",
+        "year": "81"
+    },
+    {
+        "callsign": "S55OO",
+        "year": "92"
+    },
+    {
+        "callsign": "S57LM",
+        "year": "74"
+    },
+    {
+        "callsign": "S54W",
+        "year": "79"
+    },
+    {
+        "callsign": "S53BB",
+        "year": "92"
+    },
+    {
+        "callsign": "S51DX",
+        "year": "81"
+    },
+    {
+        "callsign": "S52EZ",
+        "year": "67"
+    },
+    {
+        "callsign": "S51NM",
+        "year": "60"
+    },
+    {
+        "callsign": "S53MM",
+        "year": "92"
+    },
+    {
+        "callsign": "S53TG",
+        "year": "94"
+    },
+    {
+        "callsign": "S50W",
+        "year": "54"
+    },
+    {
+        "callsign": "S51RH",
+        "year": "16"
+    },
+    {
+        "callsign": "S55DK",
+        "year": "10"
+    },
+    {
+        "callsign": "S53FO",
+        "year": "70"
+    },
+    {
+        "callsign": "S58Y",
+        "year": "87"
+    },
+    {
+        "callsign": "S51TX",
+        "year": "71"
+    },
+    {
+        "callsign": "S52CQ",
+        "year": "86"
+    },
+    {
+        "callsign": "S53KS",
+        "year": "83"
+    },
+    {
+        "callsign": "S52BS",
+        "year": "87"
+    },
+    {
+        "callsign": "S52AQ",
+        "year": "77"
+    },
+    {
+        "callsign": "S57JHH",
+        "year": "93"
+    },
+    {
+        "callsign": "S59ZZ",
+        "year": "81"
+    },
+    {
+        "callsign": "S51D",
+        "year": "80"
+    },
+    {
+        "callsign": "S57FJ",
+        "year": "08"
+    },
+    {
+        "callsign": "S56LXB",
+        "year": "95"
+    },
+    {
+        "callsign": "S57CT",
+        "year": "73"
+    },
+    {
+        "callsign": "S50PB",
+        "year": "18"
+    },
+    {
+        "callsign": "S57NAW",
+        "year": "78"
+    },
+    {
+        "callsign": "S56AW",
+        "year": "90"
+    },
+    {
+        "callsign": "S51SU",
+        "year": "23"
+    },
+    {
+        "callsign": "S52LW",
+        "year": "76"
+    },
+    {
+        "callsign": "S53IXY",
+        "year": "57"
+    },
+    {
+        "callsign": "S50O",
+        "year": "67"
+    },
+    {
+        "callsign": "S59GCD",
+        "year": "55"
+    },
+    {
+        "callsign": "S54OM",
+        "year": "24"
+    },
+    {
+        "callsign": "S50ANM",
+        "year": "14"
+    },
+    {
+        "callsign": "S57TW",
+        "year": "79"
+    },
+    {
+        "callsign": "S57PKT",
+        "year": "95"
+    },
+    {
+        "callsign": "S50TTT",
+        "year": "19"
+    },
+    {
+        "callsign": "S50ABR",
+        "year": "14"
+    },
+    {
+        "callsign": "S51WC",
+        "year": "75"
+    },
+    {
+        "callsign": "S58DB",
+        "year": "02"
+    },
+    {
+        "callsign": "S51SJ",
+        "year": "61"
+    },
+    {
+        "callsign": "S52LI",
+        "year": "89"
+    },
+    {
+        "callsign": "S59GS",
+        "year": "77"
+    },
+    {
+        "callsign": "S52FT",
+        "year": "84"
+    },
+    {
+        "callsign": "S51TG",
+        "year": "21"
+    },
+    {
+        "callsign": "S53SO",
+        "year": "08"
+    },
+    {
+        "callsign": "S51W",
+        "year": "72"
+    },
+    {
+        "callsign": "S51MF",
+        "year": "64"
+    },
+    {
+        "callsign": "S57X",
+        "year": "65"
+    },
+    {
+        "callsign": "S57SWR",
+        "year": "97"
+    },
+    {
+        "callsign": "S54MC",
+        "year": "17"
+    },
+    {
+        "callsign": "S52OF",
+        "year": "82"
+    },
+    {
+        "callsign": "S57DC",
+        "year": "95"
+    },
+    {
+        "callsign": "S57MZG",
+        "year": "92"
+    },
+    {
+        "callsign": "S52B",
+        "year": "74"
+    },
+    {
+        "callsign": "S52RS",
+        "year": "92"
+    },
+    {
+        "callsign": "S51P",
+        "year": "00"
+    },
+    {
+        "callsign": "S55KA",
+        "year": "80"
+    },
+    {
+        "callsign": "S50MJ",
+        "year": "05"
+    },
+    {
+        "callsign": "S51PU",
+        "year": "79"
+    },
+    {
+        "callsign": "S57WW",
+        "year": "80"
+    },
+    {
+        "callsign": "S52IT",
+        "year": "63"
+    },
+    {
+        "callsign": "S53R",
+        "year": "75"
+    },
+    {
+        "callsign": "S52L",
+        "year": "02"
+    },
+    {
+        "callsign": "S53TA",
+        "year": "76"
+    },
+    {
+        "callsign": "S59FOP",
+        "year": "56"
+    },
+    {
+        "callsign": "S51ST",
+        "year": "69"
+    },
+    {
+        "callsign": "S59AA",
+        "year": "50"
+    },
+    {
+        "callsign": "S55DD",
+        "year": "92"
+    },
+    {
+        "callsign": "S59A",
+        "year": "64"
+    },
+    {
+        "callsign": "S51V",
+        "year": "84"
+    },
+    {
+        "callsign": "S51XA",
+        "year": "77"
+    },
+    {
+        "callsign": "S53SC",
+        "year": "22"
+    },
+    {
+        "callsign": "S56VHR",
+        "year": "98"
+    },
+    {
+        "callsign": "S58DV",
+        "year": "17"
+    },
+    {
+        "callsign": "S52AAM",
+        "year": "09"
+    },
+    {
+        "callsign": "S52C",
+        "year": "54"
+    },
+    {
+        "callsign": "S54TIM",
+        "year": "23"
+    },
+    {
+        "callsign": "S55G",
+        "year": "95"
+    },
+    {
+        "callsign": "S57LE",
+        "year": "14"
+    },
+    {
+        "callsign": "S57PR",
+        "year": "89"
+    },
+    {
+        "callsign": "S51GB",
+        "year": "81"
+    },
+    {
+        "callsign": "S50TA",
+        "year": "82"
+    },
+    {
+        "callsign": "S53M",
+        "year": "50"
+    },
+    {
+        "callsign": "S57AP",
+        "year": "24"
+    },
+    {
+        "callsign": "S56MO",
+        "year": "01"
+    },
+    {
+        "callsign": "S55DX",
+        "year": "74"
+    },
+    {
+        "callsign": "S51VS",
+        "year": "93"
+    },
+    {
+        "callsign": "S57BSO",
+        "year": "86"
+    },
+    {
+        "callsign": "S56BL",
+        "year": "19"
+    },
+    {
+        "callsign": "S56C",
+        "year": "83"
+    },
+    {
+        "callsign": "S56AX",
+        "year": "97"
+    },
+    {
+        "callsign": "S57AV",
+        "year": "17"
+    },
+    {
+        "callsign": "S57YB",
+        "year": "99"
+    },
+    {
+        "callsign": "S53TM",
+        "year": "17"
+    },
+    {
+        "callsign": "S50APT",
+        "year": "14"
+    },
+    {
+        "callsign": "S54MI",
+        "year": "13"
+    },
+    {
+        "callsign": "S51YI",
+        "year": "77"
+    },
+    {
+        "callsign": "S50K",
+        "year": "78"
+    },
+    {
+        "callsign": "S51JQ",
+        "year": "78"
+    },
+    {
+        "callsign": "S50X",
+        "year": "79"
+    },
+    {
+        "callsign": "S58FA",
+        "year": "78"
+    },
+    {
+        "callsign": "S50U",
+        "year": "79"
+    },
+    {
+        "callsign": "S57HPW",
+        "year": "82"
+    },
+    {
+        "callsign": "S57XZ",
+        "year": "79"
+    },
+    {
+        "callsign": "S54E",
+        "year": "86"
+    },
+    {
+        "callsign": "S53PM",
+        "year": "14"
+    },
+    {
+        "callsign": "S58BSO",
+        "year": "86"
+    },
+    {
+        "callsign": "S55NF",
+        "year": "08"
+    },
+    {
+        "callsign": "S57GM",
+        "year": "81"
+    },
+    {
+        "callsign": "S55VM",
+        "year": "93"
+    },
+    {
+        "callsign": "S50XX",
+        "year": "93"
+    },
+    {
+        "callsign": "DL/S52P",
+        "year": "77"
+    },
+    {
+        "callsign": "S57DX",
+        "year": "73"
+    },
+    {
+        "callsign": "S52BO",
+        "year": "71"
+    },
+    {
+        "callsign": "S50DK",
+        "year": "70"
+    },
+    {
+        "callsign": "S56X",
+        "year": "82"
+    },
+    {
+        "callsign": "S55Z",
+        "year": "79"
+    },
+    {
+        "callsign": "S53Z",
+        "year": "82"
+    },
+    {
+        "callsign": "S53K",
+        "year": "87"
+    },
+    {
+        "callsign": "S56EM",
+        "year": "91"
+    },
+    {
+        "callsign": "S56CUV",
+        "year": "89"
+    },
+    {
+        "callsign": "S51RU",
+        "year": "75"
+    },
+    {
+        "callsign": "S57A",
+        "year": "75"
+    },
+    {
+        "callsign": "S57ZT",
+        "year": "98"
+    },
+    {
+        "callsign": "S52AW",
+        "year": "71"
+    },
+    {
+        "callsign": "S57EA",
+        "year": "84"
+    },
+    {
+        "callsign": "S52MM",
+        "year": "78"
+    },
+    {
+        "callsign": "S54KM",
+        "year": "08"
+    },
+    {
+        "callsign": "S52DC",
+        "year": "93"
+    },
+    {
+        "callsign": "S55MP",
+        "year": "21"
+    },
+    {
+        "callsign": "S56CT",
+        "year": "93"
+    },
+    {
+        "callsign": "S55AL",
+        "year": "20"
+    },
+    {
+        "callsign": "S57F",
+        "year": "95"
+    },
+    {
+        "callsign": "S57KLA",
+        "year": "93"
+    },
+    {
+        "callsign": "S59EYZ",
+        "year": "55"
+    },
+    {
+        "callsign": "S56NE",
+        "year": "21"
+    },
+    {
+        "callsign": "S57UMU",
+        "year": "72"
+    },
+    {
+        "callsign": "S55L",
+        "year": "00"
+    },
+    {
+        "callsign": "S54RR",
+        "year": "06"
+    },
+    {
+        "callsign": "S52AS",
+        "year": "92"
+    },
+    {
+        "callsign": "S57OGL",
+        "year": "01"
+    },
+    {
+        "callsign": "S56RIR",
+        "year": "96"
+    },
+    {
+        "callsign": "S51CK",
+        "year": "72"
+    },
+    {
+        "callsign": "S51VY",
+        "year": "75"
+    },
+    {
+        "callsign": "S51RM",
+        "year": "49"
+    },
+    {
+        "callsign": "S53V",
+        "year": "65"
+    },
+    {
+        "callsign": "S54MTB",
+        "year": "14"
+    },
+    {
+        "callsign": "S51YF",
+        "year": "75"
+    },
+    {
+        "callsign": "S52MP",
+        "year": "18"
+    },
+    {
+        "callsign": "S5/M0MPM",
+        "year": "79"
+    },
+    {
+        "callsign": "S54LB",
+        "year": "23"
+    },
+    {
+        "callsign": "S54Z",
+        "year": "82"
+    },
+    {
+        "callsign": "S50VM",
+        "year": "11"
+    },
+    {
+        "callsign": "S53EL",
+        "year": "81"
+    },
+    {
+        "callsign": "S57H",
+        "year": "76"
+    },
+    {
+        "callsign": "S56FGS",
+        "year": "92"
+    },
+    {
+        "callsign": "S56HHP",
+        "year": "05"
+    },
+    {
+        "callsign": "S51AS",
+        "year": "92"
+    },
+    {
+        "callsign": "S51NB",
+        "year": "60"
+    },
+    {
+        "callsign": "S57MZP",
+        "year": "22"
+    },
+    {
+        "callsign": "S58MZ",
+        "year": "81"
+    },
+    {
+        "callsign": "S54MTD",
+        "year": "14"
+    },
+    {
+        "callsign": "S52N",
+        "year": "76"
+    },
+    {
+        "callsign": "S57MKG",
+        "year": "92"
+    },
+    {
+        "callsign": "S57FLT",
+        "year": "92"
+    },
+    {
+        "callsign": "S55BG",
+        "year": "22"
+    },
+    {
+        "callsign": "S57N",
+        "year": "01"
+    },
+    {
+        "callsign": "S51SVS",
+        "year": "01"
+    },
+    {
+        "callsign": "S56KFG",
+        "year": "86"
+    },
+    {
+        "callsign": "S57RC",
+        "year": "24"
+    },
+    {
+        "callsign": "S58MG",
+        "year": "93"
+    }
+]
