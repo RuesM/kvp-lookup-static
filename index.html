@@ -44,7 +44,7 @@
         });
         // optionally signal ready
         const countEl = document.getElementById('count');
-        if (countEl) countEl.TextContent = Object.keys(CALLSIGN_MAP).length.toString();
+        if (countEl) countEl.textContent = Object.keys(CALLSIGN_MAP).length;
         console.log('Loaded', Object.keys(CALLSIGN_MAP).length, 'callsigns');
       } catch (err) {
         console.error(err);
@@ -102,6 +102,7 @@
   </script>
 </body>
 </html>
+
 
 
 
