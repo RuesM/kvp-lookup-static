@@ -17,6 +17,7 @@
 </head>
 <body>
   <h1>KVPLookup (Static)</h1>
+  <p clas="small">Naloyeno <strong><span id="count">0</span></strong> klicnih znakov</p>
 
   <form id="lookupForm">
     <label for="callsign">Vnesi znak</label>
@@ -42,11 +43,15 @@
           if (cs) CALLSIGN_MAP[cs] = item.year;
         });
         // optionally signal ready
+        const countEl = document.getElementById('count');
+        if (countEl) countEl.TextContent = Object.keys(CALLSIGN_MAP).length;
         console.log('Loaded', Object.keys(CALLSIGN_MAP).length, 'callsigns');
       } catch (err) {
         console.error(err);
         const output = document.getElementById('output');
         output.innerHTML = `<div class="result notfound">Unable to load callsigns.json: ${err.message}</div>`;
+        const countEl = document.getElementById('count');
+        if(countEl) countEl.textContent = '0';
       }
     }
 
@@ -97,3 +102,4 @@
   </script>
 </body>
 </html>
+
