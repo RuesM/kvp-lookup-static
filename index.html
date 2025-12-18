@@ -1,473 +1,87 @@
 <!doctype html>
 <html lang="sl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="Radioklub Radenska (S59DTB) – VHF/UHF/SHF+ contesting from Kocjan. Contest call: S59P, locator JN86AO." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Radioklub Radenska – S59DTB</title>
 
-  <style>
-    :root{
-      --bg:#0b1220;
-      --card:#0f1a33;
-      --text:#eaf0ff;
-      --muted:#b8c2e6;
-      --accent:#6ee7ff;
-      --accent2:#7cffa5;
-      --line:rgba(255,255,255,.12);
-      --shadow: 0 18px 60px rgba(0,0,0,.45);
-      --radius: 18px;
-      --max: 1100px;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
-      color:var(--text);
-      background:
-        radial-gradient(1200px 700px at 20% -10%, rgba(110,231,255,.22), transparent 55%),
-        radial-gradient(900px 600px at 80% 10%, rgba(124,255,165,.18), transparent 55%),
-        linear-gradient(180deg, #070b14 0%, var(--bg) 55%, #060a12 100%);
-    }
-    a{color:inherit}
-    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
-    .nav{
-      position:sticky; top:0; z-index:50;
-      backdrop-filter: blur(10px);
-      background: rgba(7,11,20,.55);
-      border-bottom:1px solid var(--line);
-    }
-    .nav-inner{
-      display:flex; align-items:center; justify-content:space-between;
-      gap:14px; padding:12px 0;
-    }
-    .brand{
-      display:flex; align-items:center; gap:12px; text-decoration:none;
-    }
-    .logo{
-      width:40px; height:40px; border-radius:14px;
-      background:
-        radial-gradient(circle at 30% 30%, rgba(110,231,255,.9), rgba(110,231,255,.15) 55%, transparent 60%),
-        radial-gradient(circle at 70% 70%, rgba(124,255,165,.85), rgba(124,255,165,.12) 55%, transparent 60%),
-        linear-gradient(140deg, rgba(255,255,255,.14), rgba(255,255,255,.04));
-      border:1px solid rgba(255,255,255,.16);
-      box-shadow: 0 10px 30px rgba(0,0,0,.35);
-    }
-    .brand h1{
-      font-size:14px; margin:0; letter-spacing:.3px; line-height:1.15;
-    }
-    .brand small{display:block; color:var(--muted); font-weight:500}
-    .links{display:flex; gap:10px; flex-wrap:wrap; justify-content:flex-end}
-    .links a{
-      text-decoration:none; color:var(--muted);
-      padding:8px 10px; border-radius:12px;
-      border:1px solid transparent;
-    }
-    .links a:hover{color:var(--text); border-color:rgba(255,255,255,.12); background:rgba(255,255,255,.04)}
-
-    .hero{padding:56px 0 26px}
-    .hero-grid{
-      display:grid; grid-template-columns: 1.2fr .8fr; gap:18px; align-items:stretch;
-    }
-    @media (max-width: 900px){ .hero-grid{grid-template-columns:1fr} }
-    .hero-card{
-      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
-      border:1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding:24px;
-    }
-    .kicker{
-      display:inline-flex; gap:10px; align-items:center;
-      font-size:13px; color:var(--muted);
-      padding:8px 10px; border-radius:999px;
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.04);
-      margin-bottom:12px;
-    }
-    .dot{
-      width:10px; height:10px; border-radius:999px;
-      background: radial-gradient(circle at 30% 30%, var(--accent), rgba(110,231,255,.25));
-      box-shadow: 0 0 18px rgba(110,231,255,.55);
-    }
-    .hero h2{font-size:38px; margin:10px 0 10px; line-height:1.05}
-    @media (max-width: 520px){ .hero h2{font-size:32px} }
-    .hero p{color:var(--muted); font-size:16px; line-height:1.55; margin:0 0 18px}
-    .cta{
-      display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;
-    }
-    .btn{
-      display:inline-flex; align-items:center; justify-content:center;
-      gap:10px; padding:12px 14px; border-radius:14px;
-      border:1px solid rgba(255,255,255,.16);
-      background:rgba(255,255,255,.06);
-      color:var(--text); text-decoration:none;
-      font-weight:650;
-    }
-    .btn:hover{background:rgba(255,255,255,.10)}
-    .btn.primary{
-      background: linear-gradient(135deg, rgba(110,231,255,.95), rgba(124,255,165,.85));
-      color:#07101e;
-      border-color: transparent;
-    }
-    .btn.primary:hover{filter:brightness(1.02)}
-    .stats{
-      display:grid; grid-template-columns: repeat(2,1fr); gap:12px; margin-top:18px;
-    }
-    .stat{
-      border:1px solid rgba(255,255,255,.12);
-      background:rgba(15,26,51,.55);
-      border-radius: 16px;
-      padding:14px;
-    }
-    .stat b{display:block; font-size:18px}
-    .stat span{display:block; color:var(--muted); font-size:13px; margin-top:4px}
-
-    .section{padding:26px 0}
-    .section h3{margin:0 0 12px; font-size:22px}
-    .grid{
-      display:grid; grid-template-columns: repeat(3,1fr); gap:14px;
-    }
-    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
-    .card{
-      background: rgba(15,26,51,.55);
-      border:1px solid rgba(255,255,255,.12);
-      border-radius: var(--radius);
-      padding:18px;
-    }
-    .card p{color:var(--muted); margin:10px 0 0; line-height:1.55}
-    .pill{
-      display:inline-block;
-      padding:6px 10px; border-radius:999px;
-      border:1px solid rgba(255,255,255,.14);
-      background:rgba(255,255,255,.04);
-      font-size:12px; color:var(--muted);
-    }
-
-    .split{
-      display:grid; grid-template-columns: 1fr 1fr; gap:14px;
-    }
-    @media (max-width: 900px){ .split{grid-template-columns:1fr} }
-
-    .list{margin:10px 0 0; padding:0 0 0 18px; color:var(--muted); line-height:1.6}
-    .footer{
-      padding:30px 0 44px;
-      border-top:1px solid var(--line);
-      color:var(--muted);
-      font-size:13px;
-    }
-    .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace}
-    .note{font-size:12px; color:var(--muted); margin-top:10px}
-    .badge-row{display:flex; gap:10px; flex-wrap:wrap; margin-top:10px}
-  </style>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="nav">
-    <div class="wrap nav-inner">
-      <a class="brand" href="#top" aria-label="Radioklub Radenska">
-        <div class="logo" aria-hidden="true"></div>
-        <div>
-          <h1>Radioklub Radenska <small class="mono">S59DTB</small></h1>
-        </div>
-      </a>
-      <nav class="links" aria-label="Glavna navigacija">
-        <a href="#about">O klubu</a>
-        <a href="#contesting">Tekmovanja</a>
-        <a href="#location">Lokacija</a>
-        <a href="#join">Pridruži se</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#">
+      <div class="logo"></div>
+      <div>
+        <h1>Radioklub Radenska <small class="mono">S59DTB</small></h1>
+      </div>
+    </a>
+    <nav class="links">
+      <a href="#about">O klubu</a>
+      <a href="#contesting">Tekmovanja</a>
+      <a href="#location">Lokacija</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-card">
+      <div class="kicker"><span class="dot"></span> VHF / UHF / SHF+</div>
+      <h2>Radioklub Radenska</h2>
+      <p>
+        Radioamaterski klub z močnim poudarkom na VHF, UHF in višjih bandih.
+        Contestiramo iz Kočjana pod klicnim znakom <b class="mono">S59P</b>.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#contesting">S59P contest postaja</a>
+        <a class="btn" href="#contact">Pridruži se</a>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b class="mono">S59DTB</b><span>Klubski klicni znak</span></div>
+        <div class="stat"><b class="mono">S59P</b><span>Contest klicni znak</span></div>
+        <div class="stat"><b class="mono">JN86AO</b><span>Locator</span></div>
+        <div class="stat"><b>Kočjan</b><span>Contest lokacija</span></div>
+      </div>
     </div>
-  </header>
 
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero">
-      <div class="wrap hero-grid">
-        <div class="hero-card">
-          <div class="kicker"><span class="dot" aria-hidden="true"></span> Ham radio • VHF/UHF/SHF+ • Contesting</div>
-          <h2>Radioklub Radenska <span class="mono">S59DTB</span></h2>
-          <p>
-            Lokalni radioamaterski klub iz okolice Radgone – povezujemo tehniko, prijateljstvo in tekmovalni duh.
-            Aktivni smo predvsem na <b>VHF, UHF in višje</b>, s posebnim poudarkom na contestih iz naše lokacije v <b>Kocjanu</b>.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="#join">Postani član</a>
-            <a class="btn" href="#contesting">Contest postaja S59P</a>
-            <a class="btn" href="#contact">Kontakt</a>
-          </div>
+    <div class="hero-card">
+      <h3>Naša dejavnost</h3>
+      <ul class="list">
+        <li>VHF / UHF / SHF+ contesti</li>
+        <li>Postavljanje antenskih sistemov</li>
+        <li>Terensko delo in optimizacija postaje</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-          <div class="stats" role="list" aria-label="Osnovne informacije">
-            <div class="stat" role="listitem">
-              <b class="mono">S59DTB</b>
-              <span>Klubski klicni znak</span>
-            </div>
-            <div class="stat" role="listitem">
-              <b class="mono">S59P</b>
-              <span>Contest klicni znak</span>
-            </div>
-            <div class="stat" role="listitem">
-              <b class="mono">JN86AO</b>
-              <span>Locator (Kocjan)</span>
-            </div>
-            <div class="stat" role="listitem">
-              <b>VHF/UHF/SHF+</b>
-              <span>Glavna aktivnost</span>
-            </div>
-          </div>
+<section id="contact" class="section">
+  <div class="wrap">
+    <h3>Kontakt</h3>
+    <div class="card">
+      <p class="mono">
+        Email: klub@radioklub-radenska.si<br>
+        Contest: S59P / JN86AO
+      </p>
+    </div>
+  </div>
+</section>
+</main>
 
-          <div class="note">
-            * “Radenska” je lokalno prepoznavno ime — navdihnjeno z znanim proizvajalcem mineralne vode iz okolja.
-          </div>
-        </div>
+<footer class="footer">
+  <div class="wrap">
+    © <span id="y"></span> Radioklub Radenska · S59DTB
+  </div>
+</footer>
 
-        <aside class="hero-card">
-          <h3 style="margin:0 0 8px;">Na kratko</h3>
-          <div class="badge-row">
-            <span class="pill">Portable / hilltop ops</span>
-            <span class="pill">Field-day vibe</span>
-            <span class="pill">Antene &amp; optimizacije</span>
-            <span class="pill">Team contesting</span>
-          </div>
-
-          <div style="height:12px"></div>
-
-          <div class="card" style="padding:16px">
-            <span class="pill">Kaj počnemo</span>
-            <ul class="list">
-              <li>VHF/UHF/SHF+ tekmovanja (IARU, regijski in lokalni contesti)</li>
-              <li>Izgradnja in testiranje anten (Yagi, stacki, preamp-i, filtri)</li>
-              <li>Meritve, analize in izboljšave postaje na terenu</li>
-              <li>Mentorstvo in praktične delavnice za nove člane</li>
-            </ul>
-          </div>
-
-          <div style="height:14px"></div>
-
-          <div class="card" style="padding:16px">
-            <span class="pill">QSL / logi</span>
-            <p style="margin-top:10px">
-              Dodajte povezave na QSL managerja, ClubLog, LoTW ali spletni dnevnik.
-              (Trenutno placeholder — enostavno zamenjajte spodaj.)
-            </p>
-            <p class="mono" style="margin:10px 0 0; opacity:.9">
-              • QSL: your-qsl@domain.tld<br/>
-              • Logs: example.com/logs
-            </p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <div class="wrap">
-        <h3>O klubu</h3>
-        <div class="grid">
-          <div class="card">
-            <span class="pill">Skupnost</span>
-            <p>
-              Radioklub Radenska je prostor za ljudi, ki jih zanimajo radijske zveze,
-              elektronika, antene, tekmovanja in terensko delo – od začetnikov do izkušenih operatorjev.
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Tehnika</span>
-            <p>
-              Delamo na izboljšavah postaje in opreme: postavitve antenskih sistemov,
-              ojačevalniki, sprejemna veriga, zmanjševanje motenj in optimizacija postavitve.
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Učenje</span>
-            <p>
-              Če si nov v radioamaterstvu: pomagamo z osnovami, pripravo na izpit,
-              praktičnimi vajami ter uvodom v VHF/UHF/SHF tehnike in contest strategijo.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTESTING -->
-    <section class="section" id="contesting">
-      <div class="wrap">
-        <h3>Tekmovanja</h3>
-        <div class="split">
-          <div class="card">
-            <span class="pill">Contest postaja</span>
-            <p style="margin-top:10px">
-              Na contestih nastopamo pod klicnim znakom <b class="mono">S59P</b> z lokacije <b>Kocjan</b>,
-              locator <b class="mono">JN86AO</b>. Fokus: <b>VHF, UHF in višje</b> (SHF+), odvisno od banda in pogojev.
-            </p>
-            <ul class="list">
-              <li>Team operating in izmenjava operatorjev</li>
-              <li>Priprava in postavitev anten pred tekmovanjem</li>
-              <li>Analiza logov in izboljšave za naslednji contest</li>
-            </ul>
-          </div>
-          <div class="card">
-            <span class="pill">Kaj iščemo</span>
-            <p style="margin-top:10px">
-              Vedno so dobrodošli:
-            </p>
-            <ul class="list">
-              <li>operatorji za VHF/UHF/SHF (tudi “samo nekaj ur” pomaga)</li>
-              <li>pomoč pri postavitvi in kabliranju</li>
-              <li>ljudje za meritve, konfiguracije in odpravo QRM/QRN</li>
-              <li>fotografije in kratki zapisi za spletno stran</li>
-            </ul>
-            <p class="note">Namig: tukaj lahko dodaš seznam opreme, bandov, anten ali dosežkov.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LOCATION -->
-    <section class="section" id="location">
-      <div class="wrap">
-        <h3>Lokacija</h3>
-        <div class="split">
-          <div class="card">
-            <span class="pill">Kocjan • JN86AO</span>
-            <p style="margin-top:10px">
-              Naša contest lokacija je v Kocjanu. Zaradi ugodne lege je primerna za VHF/UHF delo
-              in eksperimentiranje z antenami.
-            </p>
-            <ul class="list">
-              <li><b class="mono">Locator:</b> JN86AO</li>
-              <li><b>Contest call:</b> S59P</li>
-              <li><b>Club call:</b> S59DTB</li>
-            </ul>
-            <p class="note">
-              Če želite, lahko sem vstavite Google Maps embed (potrebujete koordinate ali točen naslov).
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Galerija</span>
-            <p style="margin-top:10px">
-              Dodajte 3–6 fotografij: antene, ekipa, “shack”, sunrise/sunset z lokacije, oprema.
-              (Za zdaj placeholder.)
-            </p>
-            <div class="grid" style="grid-template-columns:repeat(2,1fr); margin-top:12px">
-              <div class="card" style="padding:14px; background:rgba(255,255,255,.04)">
-                <span class="mono">photo_01.jpg</span><br><span class="note">Antenski sistem</span>
-              </div>
-              <div class="card" style="padding:14px; background:rgba(255,255,255,.04)">
-                <span class="mono">photo_02.jpg</span><br><span class="note">Ekipa med contestom</span>
-              </div>
-              <div class="card" style="padding:14px; background:rgba(255,255,255,.04)">
-                <span class="mono">photo_03.jpg</span><br><span class="note">Shack / oprema</span>
-              </div>
-              <div class="card" style="padding:14px; background:rgba(255,255,255,.04)">
-                <span class="mono">photo_04.jpg</span><br><span class="note">Panorama / QTH</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- JOIN -->
-    <section class="section" id="join">
-      <div class="wrap">
-        <h3>Pridruži se</h3>
-        <div class="grid">
-          <div class="card">
-            <span class="pill">Začetniki</span>
-            <p>
-              Če še nimaš licence: pomagamo z osnovami, literaturo in usmeritvijo do izpita.
-              Praktično pokažemo kako se dela na VHF/UHF in kako potekajo tekmovanja.
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Aktivni operatorji</span>
-            <p>
-              Če že delaš conteste: dobrodošel v ekipi. Skupaj gradimo postajo,
-              testiramo izboljšave in lovimo nove rezultate.
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Podporniki</span>
-            <p>
-              Tudi če ne operiraš: fotografija, logistika, kuhanje na terenu, delo z antenskimi stolpi
-              ali pomoč pri urejanju spletne strani — vse šteje.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <div class="wrap">
-        <h3>Kontakt</h3>
-        <div class="split">
-          <div class="card">
-            <span class="pill">Piši nam</span>
-            <p style="margin-top:10px">
-              Spodaj zamenjaj placeholder podatke z vašimi pravimi kontakti:
-            </p>
-            <p class="mono" style="margin:10px 0 0; line-height:1.6">
-              Email: klub@radioklub-radenska.si<br/>
-              Chair / predsednik: Ime Priimek, <span class="mono">S5xxx</span><br/>
-              Contest: <span class="mono">S59P</span> (Kocjan, <span class="mono">JN86AO</span>)
-            </p>
-            <p class="note">
-              Namig: dodajte povezave do Facebook/Instagram, QRZ strani, ClubLog/LoTW, YouTube ali Discord.
-            </p>
-          </div>
-          <div class="card">
-            <span class="pill">Obrazec (enostavno)</span>
-            <p style="margin-top:10px">
-              Če želite delujoč obrazec brez strežnika, najlažje uporabite storitev kot je Formspree ali
-              Netlify Forms. Za zdaj je to samo vizualni primer:
-            </p>
-
-            <form onsubmit="event.preventDefault(); alert('Demo obrazec – poveži na Formspree/Netlify.');"
-                  style="margin-top:12px; display:grid; gap:10px;">
-              <label>
-                <span class="note">Ime</span>
-                <input required name="name" placeholder="Vaše ime"
-                  style="width:100%; padding:12px 12px; border-radius:14px; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.18); color:var(--text);" />
-              </label>
-              <label>
-                <span class="note">E-pošta</span>
-                <input required type="email" name="email" placeholder="ime@domena.si"
-                  style="width:100%; padding:12px 12px; border-radius:14px; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.18); color:var(--text);" />
-              </label>
-              <label>
-                <span class="note">Sporočilo</span>
-                <textarea required name="msg" rows="4" placeholder="Živjo! Zanima me ..."
-                  style="width:100%; padding:12px 12px; border-radius:14px; border:1px solid rgba(255,255,255,.14); background:rgba(0,0,0,.18); color:var(--text); resize:vertical"></textarea>
-              </label>
-              <button class="btn primary" type="submit" style="cursor:pointer; width:fit-content">
-                Pošlji
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="wrap">
-        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center; justify-content:space-between">
-          <div>
-            © <span id="y"></span> Radioklub Radenska • <span class="mono">S59DTB</span>
-          </div>
-          <div class="mono">
-            Contest: S59P • JN86AO • Kocjan
-          </div>
-        </div>
-      </div>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
